@@ -1,12 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olá Mundo</title>
+  <meta charset="UTF-8">
+  <title>Exercícios JavaScript</title>
 </head>
 <body>
-    <h1>Olá</h1>
-    <script src="teste.js"> </script>
+  <h1>Exercícios de JavaScript</h1>
+  <p>Abra o console do navegador para ver os resultados.</p>
+
+  <script>
+    // 1) "Olá, Mundo!" Personalizado
+    let nome = "Seu Nome"; // troque pelo seu nome
+    console.log("Olá, " + nome + "!");
+
+    // -----------------------------
+
+    // 2) Calculadora Simples
+    let num1 = 10;
+    let num2 = 5;
+
+    let soma = num1 + num2;
+    let subtracao = num1 - num2;
+    let multiplicacao = num1 * num2;
+    let divisao = num1 / num2;
+
+    console.log("Soma:", soma);
+    console.log("Subtração:", subtracao);
+    console.log("Multiplicação:", multiplicacao);
+    console.log("Divisão:", divisao);
+
+    // -----------------------------
+
+    // 3) Verificador de Idade
+    let idade = 20;
+
+    if (idade >= 18) {
+      console.log("Você é maior de idade.");
+    } else {
+      console.log("Você é menor de idade.");
+    }
+
+    // -----------------------------
+
+    // 4) Contador com Loop
+    for (let i = 1; i <= 10; i++) {
+      console.log(i);
+    }
+  </script>
 </body>
 </html>
